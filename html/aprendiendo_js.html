@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload ="load_page()">
+    <label for="" id="box_one"></label>
+    <label for="" id="box_two"></label>
+
+    <button onclick ="change_Color()">CAMBIAR COLOR</button>
+    <button id="clear_color">LIMPIAR COLOR</button>
+
+
+    <form id="form_register" autocomplete="off">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" size="30" placeholder="Escriba sus nombres" onblur="validate()"></input>
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" size="30" placeholder="Escriba sus apellidos"></input>
+        <br>
+        <button type="submit">REGISTRARSE</button>
+        <button type="reset">LIMPIAR</button>
+        <br>
+        <p id="information"></p>
+
+    </form>
+
+
+    <script src="../js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/functions.js"></script>
+    <script>
+        var a = 5;
+        var b = 2;
+        // alert(a+b);
+        alert("ESTE ES EL SEMESTREEEEEE");
+
+    </script>   
+</body>
+</html>
